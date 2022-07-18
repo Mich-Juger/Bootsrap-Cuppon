@@ -1,0 +1,67 @@
+.body   {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondo-verde    {
+    background-color: #28A745;
+}
+
+.navbar-brand img   {
+    height: 25px;
+    width: 86px;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1140px;
+}
+
+span    {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #28A745;
+    padding: 0.3rem;
+}
+
+.line   {
+    position: relative;
+}
+
+.line::before   {
+    content : "";
+    position: absolute;
+    left    : 10%;
+    top     : 0;
+    height  : 1px;
+    width   : 80%;  /* or 200px */
+    border-top: 1px solid gray;
+    opacity: 50%;
+}
+
+section h4  {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.section-prefinal   {
+    border-color: #DDDDDD;
+}
+
+.text-dark  {
+    font-size: 18px;
+}
+
+.container-fluid {
+    padding: 0 25px 0 25px;
+}
+
+.footer img {
+    height: 24px;
+    width: 82px;
+}
+
+.color-letra    {
+    color: #707070;
+}
+
